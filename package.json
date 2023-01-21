@@ -1,0 +1,17 @@
+{
+  "name": "tin-relay",
+  "version": "0.1.0",
+  "description": "TIN Serial Relay for TI 84 Plus CE",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "list": "npx @serialport/list -f jsonl"
+  },
+  "keywords": [],
+  "author": "gavinhsmith (https://gavinhsmith.com)",
+  "license": "MIT",
+  "dependencies": {
+    "serialport": "^10.5.0",
+    "serverline": "^1.6.0"
+  }
+}
